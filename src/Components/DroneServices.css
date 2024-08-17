@@ -1,0 +1,27 @@
+.services-container {
+    width: 100%;
+    max-width: 1400px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between; /* Center the grid horizontally */
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Equal gap between items */
+    width: 100%; /* Make sure grid takes full width of its container */
+  }
+  
+  .service-box {
+    padding: 50px;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    word-break: break-word; /* Ensures long text breaks and fits within the box */
+  }
+  
